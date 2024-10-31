@@ -44,3 +44,6 @@ app.*.map.json
 
 # Keystores
 *.keystore
+
+# Github Authentication Tokens
+.gitTokens
