@@ -47,3 +47,9 @@ app.*.map.json
 
 # Github Authentication Tokens (ignore)
 .gitTokens
+
+# Ignore notes
+notes.txt
+
+# Ignore .apk files
+*.apk
