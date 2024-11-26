@@ -35,14 +35,34 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  # Firebase packages
   firebase_core: ^2.27.0
   firebase_app_check: ^0.2.1+17
   firebase_auth: ^4.17.8
+  firebase_storage: ^11.6.9
   firebase_analytics: ^10.8.9
+  cloud_firestore: ^4.15.8
+  # Google (sign in)
+  google_sign_in_dartio: ^0.3.0
+  google_sign_in: ^6.2.1
+  flutter_signin_button: ^2.0.0
+  # Miscellaneous
+  collection: ^1.18.0
+  barcode_widget: ^2.0.4
+  image_picker: ^1.0.0
+  record: ^4.4.4
+  just_audio: ^0.9.32
+  # Add http as a dependency
+  http: ^1.2.0
+  # Path packages
+  path: ^1.8.3
+  path_provider: ^2.1.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # To tune app Icon
+  flutter_launcher_icons: ^0.9.3
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -50,6 +70,12 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+
+# Tuning App Icon
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/appIcon.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -63,9 +89,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/books/books.json
+    - assets/icon/appIcon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
