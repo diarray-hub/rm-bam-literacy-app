@@ -1,4 +1,4 @@
-# Literacy App 📚
+# An be Kalan 📚
 Flutter-based **Early Literacy Application** for the **Bambara Language**, developed by **RobotsMali**.
 
 ---
